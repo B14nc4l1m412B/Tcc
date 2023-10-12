@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #092244;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.buttonLogo,
+.buttonLogin {
+    padding: 0.2rem;
+    display: block;
+    color: white;
+    width: 10rem;
+    text-align: center;
+}
+
+button {
+    background-color: #092244;
+    border: none;
+}
+
+.home {
+    font-size: 1.2rem;
+}
+
+.loginUsuario {
+    font-size: 1.5rem;
+}
+
+.home,
+.loginUsuario {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.Logo {
+    height: 6rem;
+    width: 6rem;
+}
+
+.login {
+    height: 5rem;
+    width: 5rem;
+}
+
+.todomenu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 77rem;
+}
+
+.menu {
+    font-size: 1.7rem;
+    text-decoration: underline;
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+    padding-inline: 4rem;
+}
+
+
+/*
+header {
+    padding: 2rem;
+    background-color: #092244;
+    color: white;
+}
+
+button {
+    background-color: #092244;
+    border: none;
+}
+
+.Logo {
+    height: 7rem;
+    width: 7rem;
+}
+
+.menu {
+    padding-inline: 5rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.login {
+    height: 5rem;
+    width: 5rem;
+}
+
+main {
+    background: #2F4B72;
+    color: white;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divcamera {
+    background-color: #0C3264;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.camera {
+    height: 23rem;
+    width: 40rem;
+    padding: 0.5rem;
+}
+
+.conteudo {
+    padding-inline: 3rem;
+    padding-block: 2.5rem;
+}
+
+h1 {
+    padding-top: 0.5;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+p {
+    padding: 0.5rem;
+    font-size: large;
+}*/

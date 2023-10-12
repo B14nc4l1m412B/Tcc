@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #092244;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.buttonLogo,
+.buttonLogin {
+    padding: 0.2rem;
+    display: block;
+    color: white;
+    width: 10rem;
+    text-align: center;
+}
+
+button {
+    background-color: #092244;
+    border: none;
+}
+
+.home {
+    font-size: 1.2rem;
+}
+
+.loginUsuario {
+    font-size: 1.5rem;
+}
+
+.home,
+.loginUsuario {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.Logo {
+    height: 6rem;
+    width: 6rem;
+}
+
+.login {
+    height: 5rem;
+    width: 5rem;
+}
+
+.todomenu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 77rem;
+}
+
+.menu {
+    font-size: 1.7rem;
+    text-decoration: underline;
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+    padding-inline: 4rem;
+}
+
+
+/*
+main {
+    background-color: #082244;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-block: 7rem;
+    padding-bottom: 11.04rem;
+}
+
+form {
+    height: 35rem;
+    width: 50rem;
+    background-color: #1C4E92;
+    border-radius: 5%;
+}
+
+.voltar {
+    border: none;
+    background-color: #1C4E92;
+    margin: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.cadastro {
+    padding-inline: 2rem;
+    padding-block: 1rem;
+}
+
+.user-mail,
+.senha {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-block: 1rem;
+}
+
+input {
+    height: 3.5rem;
+    width: 40rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+p {
+    padding-left: 3rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+a {
+    padding-left: 0.3rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cetralizabotao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.botao {
+    background-color: #0C3264;
+    border: none;
+    padding-block: 1.5rem;
+    padding-inline: 4rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0px 5px 3px black;
+}*/
