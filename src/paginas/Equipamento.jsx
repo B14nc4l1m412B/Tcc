@@ -32,13 +32,16 @@ function Equipamento() {
           </div>
         </header>
 
-        <main>
+        <main className={styles.main}>
+          <div className={styles.conteudo}>
 
-          <div className="imgcomponentes">
-            <img class="Componentes" src={Imagecomponentes} alt="imagem dos componentes" />
+          <div className={styles.imgcomponentes}>
+            <img className={styles.Imagecomponentes} src={Imagecomponentes} alt="imagem dos componentes" />
           </div>
 
-          <div className="lista">
+          <div className={styles.conteudo2}>
+          <div className={styles.lista}>
+            <h1>Componentes</h1>
             <ul>
               <li>Leitor biométrico: R$ 100-200</li>
               <li>Arduino: R$ 70-150</li>
@@ -48,11 +51,14 @@ function Equipamento() {
             </ul>
           </div>
 
-          <div className="grupo5">
-              <img class="canais" src={Brincando} alt="um circulo verde com a borda branca, com um desenho, em branco, de um led ligado no seu interior" />
-              <a class="links" href="https://www.youtube.com/@BrincandocomIdeias/videos">Canal Brincando com Ideias</a>
+          <div className={styles.youtube}>
+            <div className={styles.imagem}>
+              <img className={styles.Brincando} src={Brincando} alt="um circulo verde com a borda branca, com um desenho, em branco, de um led ligado no seu interior" />
+              </div>
+              <a className={styles.link} href="https://www.youtube.com/@BrincandocomIdeias/videos">Canal Brincando com Ideias</a>
           </div>
-
+          </div>
+          </div>
         </main>
       </>
     )

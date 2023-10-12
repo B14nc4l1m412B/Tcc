@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Dosis&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -69,88 +70,69 @@ button {
     padding-inline: 4rem;
 }
 
-
-/*
-header {
-    padding: 2rem;
-    background-color: #092244;
-    color: white;
-}
-
-button {
-    background-color: #092244;
-    border: none;
-}
-
-.Logo {
-    height: 7rem;
-    width: 7rem;
-}
-
-.menu {
-    padding-inline: 5rem;
-    font-size: 1.5rem;
-    text-decoration: underline;
-}
-
-.login {
-    height: 5rem;
-    width: 5rem;
-}
-
-main {
+.main {
     background: #2F4B72;
     color: white;
-}
-
-a {
-    color: #ffff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.grupo5 {
-    align-items: center;
-    padding: 3rem;
-    border: 1px solid red;
-}
-
-.links {
-    padding-inline: 1rem;
-}
-
-.canais {
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
     display: flex;
 }
 
-.Componentes {
-    height: 30rem;
-    width: 18rem;
+.conteudo {
+    padding: 1rem;
+    display: flex;
+}
+
+.imgcomponentes {
+    width: 40rem;
+    padding: 1rem;
+    padding-left: 7rem;
+}
+
+.Imagecomponentes {
+    height: 40rem;
+    width: 25rem;
     border-radius: 10px;
-    margin: 3rem;
-    margin-left: 6rem;
-    border: 1px solid red;
 }
 
 .lista {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    padding-left: 5rem;
+    height: 20rem;
+    width: 40rem;
 }
 
-ul {
-    border: 1px solid red;
-    text-align: left;
+h1 {
+    text-align: center;
     padding: 1rem;
-    font-size: large;
-}*/
+    font-family: 'Bitter', serif;
+}
+
+li {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+}
+
+.youtube {
+    padding: 2rem;
+    display: block;
+    width: 40rem;
+    height: 20rem;
+    text-align: center;
+}
+
+.imagem {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+}
+
+.Brincando {
+    border-radius: 50%;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 2rem;
+}
