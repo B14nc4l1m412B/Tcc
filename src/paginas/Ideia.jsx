@@ -33,10 +33,10 @@ function Ideia() {
         </header>
 
         <main className={styles.main}>
+        <img  className={styles.camera} src={cameras} alt="duas cameras" />
           <div className={styles.conteudo}>
-            <img  className={styles.camera} src={cameras} alt="duas cameras" />
             <p>A nossa ideia de TCC não é nada de novo ou diferente, já existe há algum tempo, pois podemos ver várias casas com sistemas de alarme quase idênticos aos nossos.</p>
-            <img className="digital" src={digital} alt="dedo com digital na frente" />
+            <img className={styles.digital} src={digital} alt="dedo com digital na frente" />
             <p>Sistemas como sensores de distância são um exemplo, então apenas nos adaptamos às nossas necessidades sem ser muito complexos ou muito inovador.</p>
           </div>
         </main>
