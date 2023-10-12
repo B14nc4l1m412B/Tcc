@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Dosis&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -44,13 +45,13 @@ button {
 }
 
 .Logo {
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
 }
 
 .login {
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
 }
 
 .todomenu {
@@ -67,6 +68,40 @@ button {
     font-weight: bold;
     text-align: center;
     padding-inline: 4rem;
+}
+
+
+/**/
+
+.main {
+    background: #2F4B72;
+    color: white;
+}
+
+.divcamera {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    background-color: #0C3264;
+}
+
+.camera {
+    height: 25rem;
+    width: 40rem;
+    border-radius: 10px;
+}
+
+h1 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: 'Bitter', serif;
+}
+
+p {
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Dosis', sans-serif;
 }
 
 

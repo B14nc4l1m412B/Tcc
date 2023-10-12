@@ -12,7 +12,7 @@ function Login() {
             <form action="">
                 <button class="voltar">
                     <img src={volta} alt="seta voltando" />
-                    <Link to={"/"} ></Link>
+                    <Link to={"/"} > - </Link>
                 </button>
 
                 <div className="login">

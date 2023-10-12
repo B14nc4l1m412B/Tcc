@@ -12,7 +12,7 @@ function Cadastro() {
             <form action="">
                 <button class="voltar">
                     <img src={volta} alt="seta voltando" />
-                    <Link to={"/login"} ></Link>
+                    <Link to={"/login"} > - </Link>
                 </button>
 
                 <div className="login">
