@@ -70,9 +70,6 @@ button {
     padding-inline: 4rem;
 }
 
-
-/**/
-
 .main {
     background: #2F4B72;
     color: white;
@@ -92,6 +89,10 @@ button {
     border-radius: 10px;
 }
 
+.conteudo {
+    padding: 1rem;
+}
+
 h1 {
     padding-top: 1rem;
     padding-left: 2rem;
@@ -100,6 +101,7 @@ h1 {
 
 p {
     padding: 1.5rem;
+    padding-inline: 2rem;
     font-size: 1.3rem;
     font-family: 'Dosis', sans-serif;
 }
