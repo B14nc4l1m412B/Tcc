@@ -8,34 +8,36 @@ function RetornaSenha() {
 
   return (
     <>
-      <main>
-            <form action="">
-                <button class="voltar">
-                    <img src={volta} alt="seta voltando" />
-                    <Link to={"/login"} > - </Link>
+      <main  className={styles.main}>
+      <div className={styles.divform}>
+            <form  className={styles.form} action="">
+                <button className={styles.volta}>
+                    <img className={styles.setavolta} src={volta} alt="seta voltando" />
+                    <Link className={styles.voltalogin} to={"/login"} > - </Link>
                 </button>
 
-                <div className="login">
+                <div className={styles.login}>
                     <h1>Redefinição de senha</h1>
                 </div>
 
-                <div className="paragrafo">
+                <div className={styles.paragrafo}>
                     <h2>Por favor, digite seu email para que enviaremos um email com instruções para redifinição da sua senha.</h2>
                 </div>
 
-                <div class="cadastro">
-                    <div className="user-mail">
-                    <input type="text" name="user-mail" id="user-mail" placeholder="Nome do usuário/e-mail"/>
+                <div className={styles.cadastro}>
+                    <div className={styles.usermail}>
+                    <input className={styles.input} type="text" name="user-mail" id="user-mail" placeholder="Nome do usuário/e-mail"/>
                     </div>
                 </div>
 
-                <div class="cetralizabotao">
-                    <button class="botao">
-                        <Link to={"/login"} >Enviar</Link>
+                <div className={styles.cetralizabotao}>
+                    <button className={styles.botao}>
+                        <Link className={styles.link2} to={"/login"} >Enviar</Link>
                     </button>
                 </div>
                 
             </form>
+            </div>
     </main>
     </>
   )
