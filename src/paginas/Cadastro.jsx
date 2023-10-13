@@ -9,6 +9,7 @@ function Cadastro() {
   return (
     <>
     <main className={styles.main}>
+    <div className={styles.divform}>
             <form className={styles.form} action="">
                 <button className={styles.volta}>
                     <img className={styles.setavolta} src={volta} alt="seta voltando" />
@@ -34,11 +35,12 @@ function Cadastro() {
 
                 <div className={styles.cetralizabotao}>
                     <button className={styles.botao}>
-                        <Link className={styles.link} to={"/"} >Cadastre-se</Link>
+                        <Link className={styles.link2} to={"/"} >Cadastre-se</Link>
                     </button>
                 </div>
                 
             </form>
+            </div>
     </main>
       
     </>
