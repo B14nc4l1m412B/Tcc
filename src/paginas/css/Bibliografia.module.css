@@ -70,102 +70,61 @@ button {
 }
 
 
-/*
-header {
-    padding: 2rem;
-    background-color: #092244;
-    color: white;
-}
+/**/
 
-button {
-    background-color: #092244;
-    border: none;
-}
-
-.Logo {
-    height: 7rem;
-    width: 7rem;
-}
-
-.menu {
-    padding-inline: 5rem;
-    font-size: 1.5rem;
-    text-decoration: underline;
-}
-
-.login {
-    height: 5rem;
-    width: 5rem;
-}
-
-main {
+.main {
     background: #2F4B72;
-    color: white;
 }
 
-a {
-    color: #ffff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.links {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.grupodecima,
+.grupodebaixo {
+    padding: 3rem;
+    padding-left: 6rem;
     display: flex;
-}
-
-img {
-    padding: 1rem;
-}
-
-.usinainfo {
-    height: 10rem;
-    width: 21rem;
-}
-
-.comofazer {
-    height: 10rem;
-    width: 28rem;
-}
-
-.faculdade {
-    height: 14rem;
-    width: 16rem;
-    border-radius: 12%;
-}
-
-.canais {
-    height: 12rem;
-    width: 12rem;
-    border-radius: 50%;
 }
 
 .grupo1,
 .grupo2,
 .grupo3 {
-    display: inline-block;
+    padding: 1rem;
+    display: block;
     text-align: center;
-    padding-inline: 3.27rem;
-    padding-block: 2rem;
-}
-
-.grupo4,
-.grupo5 {
-    padding-inline: 6rem;
-}
-
-.grupo6 {
-    padding-inline: 10rem;
+    height: 17rem;
 }
 
 .grupo4,
 .grupo5,
 .grupo6 {
-    display: inline-block;
+    padding: 1rem;
+    padding-inline: 5.5rem;
+    display: block;
     text-align: center;
-    padding-block: 2rem;
-}*/
+    height: 17rem;
+}
+
+.usinainfo,
+.comofazer,
+.faculdade,
+.canais {
+    display: block;
+    padding: 1rem
+}
+
+.comofazer {
+    width: 30rem;
+}
+
+.faculdade {
+    height: 10rem;
+}
+
+.canais {
+    border-radius: 50%;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 1rem;
+}

@@ -36,37 +36,45 @@ function Bibliografia() {
           </div>
         </header>
 
-        <main>
+        <main className={styles.main}>
 
-          <div className="biblioteca">
-            <div className="grupo1">
-              <img className="usinainfo" src={usinainfo} alt="retangulo roxo escuro que no lado esquerdo tem um itemcom um formato que parece uma bandeira verde água e um ponto em cima e do lado direio usinainfo eletrônica & robóticas" />
-              <a className="links" href="https://www.usinainfo.com.br/blog/10- projetos-com-arduino-para-fazer-em-2020/">10 Projetos com arduino <br/> para fazer em 2022</a>
+          <div className={styles.biblioteca}>
+
+            <div className={styles.grupodecima}>
+
+            <div className={styles.grupo1}>
+              <img className={styles.usinainfo} src={usinainfo} alt="retangulo roxo escuro que no lado esquerdo tem um itemcom um formato que parece uma bandeira verde água e um ponto em cima e do lado direio usinainfo eletrônica & robóticas" />
+              <a className={styles.links} href="https://www.usinainfo.com.br/blog/10- projetos-com-arduino-para-fazer-em-2020/">10 Projetos com arduino <br/> para fazer em 2022</a>
             </div>
 
-            <div className="grupo2">
-              <img className="usinainfo" src={usinainfo} alt="retangulo roxo escuro que no lado esquerdo tem um itemcom um formato que parece uma bandeira verde água e um ponto em cima e do lado direio usinainfo eletrônica & robóticas" />
-              <a className="links" href="https://www.usinainfo.com.br/blog/leitor-biometrico-arduino-sistema-de-cadastramento-e-leitura-de-digitais/">Leitor biométrico arduino:<br/>Sistema de cadastramento e<br/>leitura de digitais</a>
+            <div className={styles.grupo2}>
+              <img className={styles.usinainfo} src={usinainfo} alt="retangulo roxo escuro que no lado esquerdo tem um itemcom um formato que parece uma bandeira verde água e um ponto em cima e do lado direio usinainfo eletrônica & robóticas" />
+              <a className={styles.links} href="https://www.usinainfo.com.br/blog/leitor-biometrico-arduino-sistema-de-cadastramento-e-leitura-de-digitais/">Leitor biométrico arduino:<br/>Sistema de cadastramento e<br/>leitura de digitais</a>
             </div>
 
-            <div className="grupo3">
-              <img className="comofazer" src={comofazer} alt="retangulo branco com um cachorro reciclavel a esquerda e escrito como fazer as coisa na direita" />
-              <a className="links" href="http://www.comofazerascoisas.com.br/como-fazer-um-alarme-com-arduino-sensor-de-movimentos-pir.html">Como fazer um Alarme com<br/>Arduino e sensor de<br/> movimentos PIR.</a>
+            <div className={styles.grupo3}>
+              <img className={styles.comofazer} src={comofazer} alt="retangulo branco com um cachorro reciclavel a esquerda e escrito como fazer as coisa na direita" />
+              <a className={styles.links} href="http://www.comofazerascoisas.com.br/como-fazer-um-alarme-com-arduino-sensor-de-movimentos-pir.html">Como fazer um Alarme com<br/>Arduino e sensor de<br/> movimentos PIR.</a>
+            </div>
             </div>
 
-            <div className="grupo4">
-              <img className="faculdade" src={faculdade} alt="um predio desenhado com faculdade de tecnologia de botucatu escrito embaixo" />
-              <a className="links" href="http://www.jornacitec.fatecbt.edu.br/index.php/VIIJTC/VIIJTC/paper/viewFile/1590/2126">Automação de porta com <br /> acesso por autenticação <br /> biométrica com impressão <br /> digital</a>
+            <div className={styles.grupodebaixo}>
+
+            <div className={styles.grupo4}>
+              <img className={styles.faculdade} src={faculdade} alt="um predio desenhado com faculdade de tecnologia de botucatu escrito embaixo" />
+              <a className={styles.links} href="http://www.jornacitec.fatecbt.edu.br/index.php/VIIJTC/VIIJTC/paper/viewFile/1590/2126">Automação de porta com <br /> acesso por autenticação <br /> biométrica com impressão <br /> digital</a>
             </div>
 
-            <div className="grupo5">
-              <img className="canais" src={Brincando} alt="um circulo verde com a burda branca, com um desenho, em branco, de um led ligado no seu interior" />
-              <a className="links" href="https://www.youtube.com/@BrincandocomIdeias/videos">Canal Brincando com Ideias</a>
+            <div className={styles.grupo5}>
+              <img className={styles.canais} src={Brincando} alt="um circulo verde com a burda branca, com um desenho, em branco, de um led ligado no seu interior" />
+              <a className={styles.links} href="https://www.youtube.com/@BrincandocomIdeias/videos">Canal Brincando com Ideias</a>
             </div>
 
-            <div className="grupo6">
-              <img className="canais" src={Wanderley} alt="circulo roxo com um w no meio" />
-              <a className="links" href="https://www.youtube.com/@wanderleypatricio2793/videos">Canal Wanderley Patrício</a>
+            <div className={styles.grupo6}>
+              <img className={styles.canais} src={Wanderley} alt="circulo roxo com um w no meio" />
+              <a className={styles.links} href="https://www.youtube.com/@wanderleypatricio2793/videos">Canal Wanderley Patrício</a>
+            </div>
+
             </div>
           </div>
           
