@@ -35,9 +35,9 @@ function Ideia() {
         <main className={styles.main}>
         <img  className={styles.camera} src={cameras} alt="duas cameras" />
           <div className={styles.conteudo}>
-            <p>A nossa ideia de TCC não é nada de novo ou diferente, já existe há algum tempo, pois podemos ver várias casas com sistemas de alarme quase idênticos aos nossos.</p>
+            <p>Nosso produtos ajudam com a prenvenção de crimes. Normalmente, quando os criminosos percebem um sistema de segurança implantado no local, acabam recuando e desistindo de agir. Só de estarem presentes no ambiente, os equipamentos reduzem as chances de ocorrerem os delitos, por que as pessoas mal-intencionadas optam por locais onde possam trafegar sem serem vistos.</p>
             <img className={styles.digital} src={digital} alt="dedo com digital na frente" />
-            <p>Sistemas como sensores de distância são um exemplo, então apenas nos adaptamos às nossas necessidades sem ser muito complexos ou muito inovador.</p>
+            <p>Nosso Produto não é nada de novo ou diferente, já existe há algum tempo, pois podemos ver várias casas com sistemas de alarme quase idênticos aos nossos. A diferença do nosso sistema são os sensores de distância, então apenas nos adaptamos às nossas necessidades sem ser muito complexos ou muito inovador.</p>
           </div>
         </main>
       </>

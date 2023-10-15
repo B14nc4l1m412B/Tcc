@@ -37,9 +37,9 @@ function Objetivo() {
           </div>
           <div className={styles.conteudo}>
             <h1>Objetivo:</h1>
-            <p> O objetivo do nosso trabalho é fazer um sistema de segurança (alarme) que só acione se o tempo pré-definido do alarme tiver passado. Ele envia uma mensagem pelo aplicativo para o proprietário informando que algo suspeito aconteceu perto de sua porta. Trazendo assim mais conforto e segurança para as pessoas que utilizam nossos equipamentos da forma mais rápida, fácil e prática. </p>
+            <p> Nosso trabalho é fazer um sistema de segurança (alarme) que só acione se o tempo pré-definido do alarme tiver passado. Ele vai soar um alarme alto para o proprietário e pessoas ao redor serem informando que algo suspeito aconteceu perto de sua porta. Trazendo assim mais conforto e segurança para as pessoas que utilizam nossos equipamentos da forma mais rápida, fácil e prática. </p>
             <h1>Público-alvo:</h1>
-            <p> O público-alvo com quem trabalhamos São pessoas que já vivem sozinhas, pelo que já são o nosso público-alvo, para jovens ou adultos que pretendem maior segurança em suas casas.</p>
+            <p> Trabalhamos com familias pequenas e grandes, nossos sistemas ajudam a identificar os membros que tem a permição de entrar em sua propriedade. Para jovens ou adultos que pretendem maior segurança em suas casas.</p>
           </div>
         </main>
       </>
