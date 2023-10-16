@@ -136,4 +136,33 @@ li {
     font-weight: bold;
     color: white;
     padding: 2rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+@media (max-width: 1920px) {
+    .todomenu {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 96rem;
+    }
+    .menu {
+        padding-inline: 7rem;
+    }
+    .conteudo {
+        padding: 2rem;
+        padding-left: 4rem;
+    }
+    .Imagecomponentes {
+        height: 45.2rem;
+        width: 30rem;
+    }
+    .lista {
+        padding-left: 20rem;
+        width: 50rem;
+    }
+    .youtube {
+        padding-top: 6rem;
+        padding-left: 20rem;
+    }
 }

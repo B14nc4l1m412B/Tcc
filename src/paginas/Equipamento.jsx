@@ -48,6 +48,7 @@ function Equipamento() {
               <li>LCD: R$ 30-50</li>
               <li>Cabos: R$ 20-30</li>
               <li>Protoboard: R$ 20</li>
+              <li>Buzzer: R$ 10</li>
             </ul>
           </div>
 

@@ -106,3 +106,18 @@ p {
     font-size: 1.3rem;
     font-family: 'Dosis', sans-serif;
 }
+
+@media (max-width: 1920px) {
+    .todomenu {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 96rem;
+    }
+    .menu {
+        padding-inline: 7rem;
+    }
+    .conteudo {
+        padding: 2.3rem;
+    }
+}

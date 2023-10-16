@@ -97,3 +97,24 @@ p {
     font-size: 1.6rem;
     font-family: 'Dosis', sans-serif;
 }
+
+@media (max-width: 1920px) {
+    .todomenu {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 96rem;
+    }
+    .menu {
+        padding-inline: 7rem;
+    }
+    .imagemdefundo {
+        height: 38rem;
+        width: 117rem;
+    }
+    .conteudo {
+        padding-block: 1.5rem;
+        padding-inline: 10rem;
+        text-align: center;
+    }
+}
