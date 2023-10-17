@@ -122,6 +122,8 @@ p {
     }
 }
 
+
+/*
 @media (min-width: 375px) {
     .Logo {
         height: 3rem;
@@ -146,7 +148,6 @@ p {
         width: 2rem;
         display: block;
     }
-    /**/
     .main {
         text-align: center;
     }
@@ -161,4 +162,4 @@ p {
         border: 1px solid red;
         padding: 1rem;
     }
-}
+}*/

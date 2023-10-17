@@ -122,6 +122,8 @@ p {
     }
 }
 
+
+/*
 @media (min-width: 375px) {
     .Logo {
         height: 3rem;
@@ -145,7 +147,6 @@ p {
         height: 2rem;
         width: 2rem;
     }
-    /**/
     .divcamera {
         width: 23.43rem;
     }
@@ -159,4 +160,4 @@ p {
     .p {
         padding-inline: 0.5rem;
     }
-}
+}*/
