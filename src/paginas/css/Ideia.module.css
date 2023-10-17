@@ -121,3 +121,44 @@ p {
         padding-top: 8.5rem;
     }
 }
+
+@media (min-width: 375px) {
+    .Logo {
+        height: 3rem;
+        width: 3rem;
+    }
+    .home {
+        font-size: 1rem;
+    }
+    .todomenu {
+        width: 10rem;
+        height: 5rem;
+        display: block;
+        border: 1px solid red;
+    }
+    .menu {
+        font-size: 0.7rem;
+        padding-inline: 1rem;
+        padding-block: 2rem;
+    }
+    .login {
+        height: 2rem;
+        width: 2rem;
+        display: block;
+    }
+    /**/
+    .main {
+        text-align: center;
+    }
+    .camera {
+        height: 45rem;
+        width: 23.43rem;
+        display: block;
+        border: 1px solid red;
+    }
+    .conteudo {
+        display: block;
+        border: 1px solid red;
+        padding: 1rem;
+    }
+}

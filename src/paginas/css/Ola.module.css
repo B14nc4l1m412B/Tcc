@@ -118,3 +118,38 @@ p {
         text-align: center;
     }
 }
+
+@media (min-width: 375px) {
+    .Logo {
+        height: 3rem;
+        width: 3rem;
+    }
+    .home {
+        font-size: 1rem;
+    }
+    .todomenu {
+        width: 10rem;
+        height: 5rem;
+        display: block;
+        border: 1px solid red;
+    }
+    .menu {
+        font-size: 0.7rem;
+        padding-inline: 1rem;
+        padding-block: 2rem;
+    }
+    .login {
+        height: 2rem;
+        width: 2rem;
+    }
+    /**/
+    .imagemdefundo {
+        height: 11rem;
+        width: 23.43rem;
+    }
+    .conteudo {
+        padding-block: 1.5rem;
+        padding-inline: 1rem;
+        text-align: center;
+    }
+}

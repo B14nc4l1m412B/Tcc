@@ -41,7 +41,7 @@ function Equipamento() {
 
           <div className={styles.conteudo2}>
           <div className={styles.lista}>
-            <h1>Componentes</h1>
+            <h1 className={styles.h1}>Componentes</h1>
             <ul>
               <li>Leitor biométrico: R$ 100-200</li>
               <li>Arduino: R$ 70-150</li>

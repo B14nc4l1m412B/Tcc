@@ -121,3 +121,42 @@ p {
         padding: 2.3rem;
     }
 }
+
+@media (min-width: 375px) {
+    .Logo {
+        height: 3rem;
+        width: 3rem;
+    }
+    .home {
+        font-size: 1rem;
+    }
+    .todomenu {
+        width: 10rem;
+        height: 5rem;
+        display: block;
+        border: 1px solid red;
+    }
+    .menu {
+        font-size: 0.7rem;
+        padding-inline: 1rem;
+        padding-block: 2rem;
+    }
+    .login {
+        height: 2rem;
+        width: 2rem;
+    }
+    /**/
+    .divcamera {
+        width: 23.43rem;
+    }
+    .camera {
+        width: 20rem;
+        height: 13rem;
+    }
+    .h1 {
+        font-size: 2.6rem;
+    }
+    .p {
+        padding-inline: 0.5rem;
+    }
+}
