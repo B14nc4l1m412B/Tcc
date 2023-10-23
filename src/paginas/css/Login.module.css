@@ -99,6 +99,7 @@ p {
 
 @media (max-width: 1920px) {
     .divform {
-        padding-left: 10rem;
+        padding-left: 40rem;
+        padding-block: 5rem;
     }
 }
