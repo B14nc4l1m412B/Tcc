@@ -58,7 +58,7 @@ button {
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 77rem;
+    width: 96rem;
 }
 
 .menu {
@@ -67,7 +67,7 @@ button {
     color: #ffff;
     font-weight: bold;
     text-align: center;
-    padding-inline: 4rem;
+    padding-inline: 7rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -78,7 +78,8 @@ button {
 }
 
 .conteudo {
-    padding: 1rem;
+    padding: 2rem;
+    padding-left: 4rem;
     display: flex;
 }
 
@@ -89,15 +90,15 @@ button {
 }
 
 .Imagecomponentes {
-    height: 40rem;
-    width: 25rem;
+    height: 45.2rem;
+    width: 30rem;
     border-radius: 10px;
 }
 
 .lista {
-    padding-left: 5rem;
+    padding-left: 20rem;
+    width: 50rem;
     height: 20rem;
-    width: 40rem;
 }
 
 h1 {
@@ -112,9 +113,11 @@ li {
 }
 
 .youtube {
+    padding-top: 6rem;
+    padding-left: 40rem;
     padding: 2rem;
     display: block;
-    width: 40rem;
+    width: 72rem;
     height: 20rem;
     text-align: center;
 }
@@ -139,35 +142,7 @@ li {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 1920px) {
-    .todomenu {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        width: 96rem;
-    }
-    .menu {
-        padding-inline: 7rem;
-    }
-    .conteudo {
-        padding: 2rem;
-        padding-left: 4rem;
-    }
-    .Imagecomponentes {
-        height: 45.2rem;
-        width: 30rem;
-    }
-    .lista {
-        padding-left: 20rem;
-        width: 50rem;
-    }
-    .youtube {
-        padding-top: 6rem;
-        padding-left: 20rem;
-    }
-}
-
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .Logo {
         height: 3rem;
         width: 3rem;
@@ -190,7 +165,6 @@ li {
         height: 2rem;
         width: 2rem;
     }
-    /**/
     .conteudo {
         padding: 1rem;
         display: block;
@@ -216,7 +190,7 @@ li {
     .youtube {
         padding: 1rem;
         padding-top: 5rem;
-        width: 20rem;
+        width: 22rem;
         height: 25rem;
     }
     .link {

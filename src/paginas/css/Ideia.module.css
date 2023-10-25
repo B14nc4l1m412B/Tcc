@@ -58,7 +58,7 @@ button {
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 77rem;
+    width: 96rem;
 }
 
 .menu {
@@ -67,7 +67,7 @@ button {
     color: #ffff;
     font-weight: bold;
     text-align: center;
-    padding-inline: 4rem;
+    padding-inline: 7rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -77,20 +77,25 @@ button {
     display: flex;
 }
 
+.tudo {
+    display: flex;
+}
+
 .camera {
-    height: 44.3rem;
+    height: 51.3rem;
+    width: 30rem;
     display: flex;
 }
 
 .conteudo {
     padding: 3rem;
-    padding-top: 6rem;
+    padding-top: 8.5rem;
     text-align: center;
 }
 
 .digital {
-    height: 17rem;
-    width: 35rem;
+    height: 20rem;
+    width: 45rem;
     border-radius: 10px;
 }
 
@@ -99,32 +104,7 @@ p {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 1920px) {
-    .todomenu {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        width: 96rem;
-    }
-    .menu {
-        padding-inline: 7rem;
-    }
-    .camera {
-        height: 51.3rem;
-        width: 30rem;
-    }
-    .digital {
-        height: 20rem;
-        width: 45rem;
-    }
-    .conteudo {
-        padding-top: 8.5rem;
-    }
-}
-
-
-/*
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .Logo {
         height: 3rem;
         width: 3rem;
@@ -151,15 +131,22 @@ p {
     .main {
         text-align: center;
     }
+    .tudo {
+        display: block;
+    }
     .camera {
         height: 45rem;
         width: 23.43rem;
         display: block;
-        border: 1px solid red;
     }
     .conteudo {
+        width: 23.43rem;
         display: block;
-        border: 1px solid red;
         padding: 1rem;
+        padding-block: 2rem;
     }
-}*/
+    .digital {
+        height: 12rem;
+        width: 20rem;
+    }
+}
