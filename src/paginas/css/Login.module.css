@@ -16,6 +16,8 @@
     justify-content: center;
     display: flex;
     width: 45rem;
+    padding-left: 25rem;
+    padding-block: 5rem;
 }
 
 .form {
@@ -97,9 +99,26 @@ p {
     font-size: 1.5rem;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 375px) {
+    .main {
+        padding-block: 6rem;
+        padding-inline: 0.8rem;
+    }
     .divform {
-        padding-left: 40rem;
-        padding-block: 5rem;
+        width: 20rem;
+        padding-left: 2rem;
+        padding-block: 3rem;
+    }
+    .form {
+        padding: 0.5rem;
+    }
+    .input {
+        width: 17rem;
+    }
+    p {
+        font-size: 0.7rem;
+    }
+    .link {
+        font-size: 1rem;
     }
 }
