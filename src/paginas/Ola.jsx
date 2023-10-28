@@ -20,10 +20,10 @@ function Ola() {
           </button>
           </div>
           <div className={styles.todomenu}>
-            <Link className={styles.menu} to={"/objetivo"}>Objetivo</Link>
-            <Link className={styles.menu} to={"/ideia"}>Nossa ideia</Link>
-            <Link className={styles.menu} to={"/equipamento"}>Equipamento</Link>
-            <Link className={styles.menu} to={"/bibliografia"}>Bibliografia</Link>
+            <Link className={styles.menu1} to={"/objetivo"}>Objetivo</Link>
+            <Link className={styles.menu2} to={"/ideia"}>Nossa ideia</Link>
+            <Link className={styles.menu3} to={"/equipamento"}>Equipamento</Link>
+            <Link className={styles.menu4} to={"/bibliografia"}>Bibliografia</Link>
           </div>
           <div className={styles.buttonLogin}>
             <button>
@@ -36,8 +36,8 @@ function Ola() {
         <main className={styles.main}>
           <img className={styles.imagemdefundo} src={imagemdefundo} alt="" />
           <div className={styles.conteudo}>
-            <h1>Olá</h1>
-            <p>Bem-vindo ao site Begin DoorLock systems, onde você encontra uma grande variedade de sirenes, equipamentos de segurança residencial, tudo na melhor qualidade para sua segurança e proteção residencial, confira nossos equipamentos de última geração.</p>
+            <h1 className={styles.h1}>Olá</h1>
+            <p className={styles.p}>Bem-vindo ao site Begin DoorLock systems, onde você encontra uma grande variedade de sirenes, equipamentos de segurança residencial, tudo na melhor qualidade para sua segurança e proteção residencial, confira nossos equipamentos de última geração.</p>
           </div>
         </main>
       </>

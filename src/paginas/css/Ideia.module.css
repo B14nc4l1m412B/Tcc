@@ -61,7 +61,10 @@ button {
     width: 96rem;
 }
 
-.menu {
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
     font-size: 1.7rem;
     text-decoration: underline;
     color: #ffff;
@@ -105,6 +108,15 @@ p {
 }
 
 @media (max-width: 375px) {
+    .header {
+        padding: 1rem;
+    }
+    .buttonLogo {
+        padding-right: 2.5rem;
+    }
+    .buttonLogin {
+        padding-left: 2.5rem;
+    }
     .Logo {
         height: 3rem;
         width: 3rem;
@@ -113,20 +125,24 @@ p {
         font-size: 1rem;
     }
     .todomenu {
-        width: 10rem;
-        height: 5rem;
+        width: 13rem;
+        height: 8rem;
         display: block;
-        border: 1px solid red;
     }
-    .menu {
-        font-size: 0.7rem;
-        padding-inline: 1rem;
-        padding-block: 2rem;
+    .menu1,
+    .menu2,
+    .menu3,
+    .menu4 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 1rem;
+        padding-inline: 0.6rem;
+        padding-block: 0.4rem;
     }
     .login {
         height: 2rem;
         width: 2rem;
-        display: block;
     }
     .main {
         text-align: center;
@@ -148,5 +164,9 @@ p {
     .digital {
         height: 12rem;
         width: 20rem;
+    }
+    .p {
+        font-size: 1.3rem;
+        padding-inline: 0.5rem;
     }
 }

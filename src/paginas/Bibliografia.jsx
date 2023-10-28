@@ -23,10 +23,10 @@ function Bibliografia() {
           </button>
           </div>
           <div className={styles.todomenu}>
-            <Link className={styles.menu} to={"/objetivo"}>Objetivo</Link>
-            <Link className={styles.menu} to={"/ideia"}>Nossa ideia</Link>
-            <Link className={styles.menu} to={"/equipamento"}>Equipamento</Link>
-            <Link className={styles.menu} to={"/bibliografia"}>Bibliografia</Link>
+            <Link className={styles.menu1} to={"/objetivo"}>Objetivo</Link>
+            <Link className={styles.menu2} to={"/ideia"}>Nossa ideia</Link>
+            <Link className={styles.menu3} to={"/equipamento"}>Equipamento</Link>
+            <Link className={styles.menu4} to={"/bibliografia"}>Bibliografia</Link>
           </div>
           <div className={styles.buttonLogin}>
             <button>

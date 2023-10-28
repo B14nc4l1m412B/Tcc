@@ -17,14 +17,14 @@ function Login() {
                 </button>
 
                 <div className={styles.login}>
-                    <h1>Login</h1>
+                    <h1 className={styles.h1}>Login</h1>
                 </div>
 
                 <div className={styles.cadastro}>
                     <div className={styles.usermail}>
                     <input className={styles.input} type="text" name="user-mail" id="user-mail" placeholder="Nome do usuário/e-mail"/>
                     </div>
-                    <p>Não tem cadastro?</p>
+                    <p className={styles.p}>Não tem cadastro?</p>
                     <Link className={styles.link} to={"/cadastro"}>Clique aqui</Link>
                 </div>
 
@@ -32,7 +32,7 @@ function Login() {
                     <div className={styles.senha}>
                     <input className={styles.input}  type="text" name="senha" id="senha" placeholder="Senha"/>
                     </div>
-                    <p>Esqueceu sua senha?</p>
+                    <p className={styles.p}>Esqueceu sua senha?</p>
                     <Link className={styles.link} to={"/returnasenha"} >Clique aqui</Link>
                 </div>
 

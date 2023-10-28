@@ -17,13 +17,13 @@ function Cadastro() {
                 </button>
 
                 <div className={styles.login}>
-                    <h1>Cadastro</h1>
+                    <h1 className={styles.h1}>Cadastro</h1>
                 </div>
                 <div className={styles.cadastro}>
                     <div className={styles.usermail}>
                     <input className={styles.input} type="text" name="user-mail" id="user-mail" placeholder="Nome do usuário/e-mail"/>
                     </div>
-                    <p>Já tem conta?</p>
+                    <p className={styles.p}>Já tem conta?</p>
                     <Link className={styles.link} to={"/login"} >Clique aqui</Link>
                 </div>
 
