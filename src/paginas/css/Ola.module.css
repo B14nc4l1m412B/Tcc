@@ -101,7 +101,7 @@ button {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .header {
         padding: 1rem;
     }
@@ -140,7 +140,7 @@ button {
     }
     .imagemdefundo {
         height: 14rem;
-        width: 23.43rem;
+        width: 25rem;
     }
     .conteudo {
         padding-block: 1.5rem;

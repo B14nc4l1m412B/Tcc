@@ -110,7 +110,7 @@ p {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .header {
         padding: 1rem;
     }
@@ -148,14 +148,14 @@ p {
         width: 2rem;
     }
     .divcamera {
-        width: 23.43rem;
+        width: 25rem;
     }
     .camera {
         width: 20rem;
         height: 13rem;
     }
     .h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .p {
         font-size: 1.3rem;
