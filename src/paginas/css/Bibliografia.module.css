@@ -133,7 +133,7 @@ button {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .header {
         padding: 1rem;
     }

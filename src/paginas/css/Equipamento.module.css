@@ -145,7 +145,7 @@ li {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .header {
         padding: 1rem;
     }
@@ -183,12 +183,13 @@ li {
         width: 2rem;
     }
     .conteudo {
+        width: 23.72rem;
         padding: 1rem;
         display: block;
     }
     .imgcomponentes {
         padding: 0.5rem;
-        padding-left: 1.5rem;
+        width: 21rem;
     }
     .Imagecomponentes {
         height: 32rem;
@@ -200,7 +201,6 @@ li {
         width: 20rem;
     }
     .h1 {
-        padding-left: 2rem;
         font-size: 2.5rem;
     }
     li {

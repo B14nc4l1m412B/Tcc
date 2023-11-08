@@ -99,10 +99,10 @@ p {
     font-size: 1.5rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .main {
         padding-block: 6rem;
-        padding-inline: 1.5rem;
+        padding-inline: 0.8rem;
     }
     .divform {
         width: 20rem;

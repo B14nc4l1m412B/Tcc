@@ -107,7 +107,7 @@ p {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .header {
         padding: 1rem;
     }
@@ -152,11 +152,11 @@ p {
     }
     .camera {
         height: 45rem;
-        width: 25rem;
+        width: 23.72rem;
         display: block;
     }
     .conteudo {
-        width: 25rem;
+        width: 23.72rem;
         display: block;
         padding: 1rem;
         padding-block: 2rem;
