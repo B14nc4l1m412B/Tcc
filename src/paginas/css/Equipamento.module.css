@@ -145,7 +145,7 @@ li {
     font-family: 'Dosis', sans-serif;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
     .header {
         padding: 1rem;
     }
