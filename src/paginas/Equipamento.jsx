@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import styles from "./css/Equipamento.module.css"
 
 import Logo from "./imagens/Logo.png"
-import login from "./imagens/login.png"
 import Imagecomponentes from "./imagens/componentes.png"
 import Brincando from "./imagens/brincando-com-ideias.jpg"
 
@@ -24,12 +23,6 @@ function Equipamento() {
             <Link className={styles.menu3} to={"/equipamento"}>Equipamento</Link>
             <Link className={styles.menu4} to={"/bibliografia"}>Bibliografia</Link>
           </div>
-          <div className={styles.buttonLogin}>
-            <button>
-              <img className={styles.login} src={login} alt="login" />
-              <Link className={styles.loginUsuario} to={"/login"}>Login</Link>
-            </button>
-          </div>
         </header>
 
         <main className={styles.main}>
@@ -43,12 +36,13 @@ function Equipamento() {
           <div className={styles.lista}>
             <h1 className={styles.h1}>Componentes</h1>
             <ul>
-              <li>Leitor biométrico: R$ 100-200</li>
-              <li>Arduino: R$ 70-150</li>
-              <li>LCD: R$ 30-50</li>
-              <li>Cabos: R$ 20-30</li>
-              <li>Protoboard: R$ 20</li>
-              <li>Buzzer: R$ 10</li>
+              <li>Leitor ultrasonico: R$ 15,00</li>
+              <li>Leitor biométrico: R$ 160,00</li>
+              <li>LCD: R$ 40,00</li>
+              <li>Arduino: R$ 130,00</li>
+              <li>Cabos: R$ 27,00</li>
+              <li>Protoboard: R$ 20,00</li>
+              <li>Buzzer: R$ 10,00</li>
             </ul>
           </div>
 

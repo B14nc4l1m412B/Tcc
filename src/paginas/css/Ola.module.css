@@ -14,8 +14,7 @@
     display: flex;
 }
 
-.buttonLogo,
-.buttonLogin {
+.buttonLogo {
     padding: 0.2rem;
     display: block;
     color: white;
@@ -30,14 +29,6 @@ button {
 
 .home {
     font-size: 1.2rem;
-}
-
-.loginUsuario {
-    font-size: 1.5rem;
-}
-
-.home,
-.loginUsuario {
     color: #ffff;
     text-decoration: none;
     font-weight: bold;
@@ -47,11 +38,6 @@ button {
 .Logo {
     height: 5rem;
     width: 5rem;
-}
-
-.login {
-    height: 4rem;
-    width: 4rem;
 }
 
 .todomenu {
@@ -66,12 +52,28 @@ button {
 .menu3,
 .menu4 {
     font-size: 1.7rem;
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffff;
     font-weight: bold;
     text-align: center;
     padding-inline: 7rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu1:hover {
+    text-decoration: underline;
+}
+
+.menu2:hover {
+    text-decoration: underline;
+}
+
+.menu3:hover {
+    text-decoration: underline;
+}
+
+.menu4:hover {
+    text-decoration: underline;
 }
 
 .main {
@@ -95,7 +97,7 @@ button {
     font-family: 'Bitter', serif;
 }
 
-.p {
+.h2 {
     padding: 1.78rem;
     font-size: 1.6rem;
     font-family: 'Dosis', sans-serif;
@@ -150,7 +152,7 @@ button {
     .h1 {
         font-size: 3.5rem;
     }
-    .p {
+    .h2 {
         font-size: 1.6rem;
     }
 }

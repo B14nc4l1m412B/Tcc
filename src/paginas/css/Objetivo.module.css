@@ -14,8 +14,7 @@
     display: flex;
 }
 
-.buttonLogo,
-.buttonLogin {
+.buttonLogo {
     padding: 0.2rem;
     display: block;
     color: white;
@@ -30,14 +29,6 @@ button {
 
 .home {
     font-size: 1.2rem;
-}
-
-.loginUsuario {
-    font-size: 1.5rem;
-}
-
-.home,
-.loginUsuario {
     color: #ffff;
     text-decoration: none;
     font-weight: bold;
@@ -47,11 +38,6 @@ button {
 .Logo {
     height: 5rem;
     width: 5rem;
-}
-
-.login {
-    height: 4rem;
-    width: 4rem;
 }
 
 .todomenu {
@@ -66,7 +52,7 @@ button {
 .menu3,
 .menu4 {
     font-size: 1.7rem;
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffff;
     font-weight: bold;
     text-align: center;
@@ -74,9 +60,38 @@ button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.menu1:hover {
+    text-decoration: underline;
+}
+
+.menu2:hover {
+    text-decoration: underline;
+}
+
+.menu3:hover {
+    text-decoration: underline;
+}
+
+.menu4:hover {
+    text-decoration: underline;
+}
+
 .main {
     background: #2F4B72;
     color: white;
+}
+
+.Objetivo,
+.Publico {
+    width: 45rem;
+    text-align: center;
+}
+
+.conteudo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
 }
 
 .divcamera {
@@ -84,7 +99,6 @@ button {
     justify-content: center;
     display: flex;
     padding: 1rem;
-    background-color: #0C3264;
 }
 
 .camera {
@@ -94,7 +108,7 @@ button {
 }
 
 .conteudo {
-    padding: 2.3rem;
+    padding: 2rem;
 }
 
 h1 {
@@ -160,5 +174,7 @@ p {
     .p {
         font-size: 1.3rem;
         padding-inline: 0.5rem;
+        line-height: 2rem;
+        text-align: center;
     }
 }

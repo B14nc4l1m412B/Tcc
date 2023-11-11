@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import styles from "./css/Ideia.module.css"
 
 import Logo from "./imagens/Logo.png"
-import login from "./imagens/login.png"
 import cameras from "./imagens/cameras.jpg"
 import digital from "./imagens/digital.png"
 
@@ -23,12 +22,6 @@ function Ideia() {
             <Link className={styles.menu2} to={"/ideia"}>Nossa ideia</Link>
             <Link className={styles.menu3} to={"/equipamento"}>Equipamento</Link>
             <Link className={styles.menu4} to={"/bibliografia"}>Bibliografia</Link>
-          </div>
-          <div className={styles.buttonLogin}>
-            <button>
-              <img className={styles.login} src={login} alt="login" />
-              <Link className={styles.loginUsuario} to={"/login"}>Login</Link>
-            </button>
           </div>
         </header>
 

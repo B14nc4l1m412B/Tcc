@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import styles from "./css/Bibliografia.module.css"
 
 import Logo from "./imagens/Logo.png"
-import login from "./imagens/login.png"
 import usinainfo from "./imagens/logo-nova-blog-usinainfo.jpg"
 import comofazer from "./imagens/como-fazer-coisas.png"
 import faculdade from "./imagens/faculdade_de_tecnologia_de_batucatu.png"
@@ -27,12 +26,6 @@ function Bibliografia() {
             <Link className={styles.menu2} to={"/ideia"}>Nossa ideia</Link>
             <Link className={styles.menu3} to={"/equipamento"}>Equipamento</Link>
             <Link className={styles.menu4} to={"/bibliografia"}>Bibliografia</Link>
-          </div>
-          <div className={styles.buttonLogin}>
-            <button>
-              <img className={styles.login} src={login} alt="login" />
-              <Link className={styles.loginUsuario} to={"/login"}>Login</Link>
-            </button>
           </div>
         </header>
 
