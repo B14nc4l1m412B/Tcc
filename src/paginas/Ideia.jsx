@@ -13,8 +13,10 @@ function Ideia() {
         <header className={styles.header}>
           <div className={styles.buttonLogo}>
           <button>
-            <img className={styles.Logo} src={Logo} alt="logo azul" />
-            <Link className={styles.home} to={"/"} >B.D.L. systems</Link>
+            <Link className={styles.home} to={"/"} >
+              <img className={styles.Logo} src={Logo} alt="logo azul" />
+              B.D.L. systems
+            </Link>
           </button>
           </div>
           <div className={styles.todomenu}>
@@ -27,7 +29,6 @@ function Ideia() {
 
         <main className={styles.main}>
           <div className={styles.tudo}>
-        <img  className={styles.camera} src={cameras} alt="duas cameras" />
           <div className={styles.conteudo}>
             <p className={styles.p}>Nosso produtos ajudam com a prenvenção de crimes. Normalmente, quando os criminosos percebem um sistema de segurança implantado no local, acabam recuando e desistindo de agir. Só de estarem presentes no ambiente, os equipamentos reduzem as chances de ocorrerem os delitos, por que as pessoas mal-intencionadas optam por locais onde possam trafegar sem serem vistos.</p>
             <img className={styles.digital} src={digital} alt="dedo com digital na frente" />
