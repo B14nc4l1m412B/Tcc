@@ -83,7 +83,6 @@ button {
 .grupodecima,
 .grupodebaixo {
     padding: 3rem;
-    padding-left: 6rem;
     display: flex;
 }
 
@@ -91,8 +90,7 @@ button {
 .grupo2,
 .grupo3 {
     padding: 1rem;
-    padding-inline: 6rem;
-    height: 20rem;
+    height: 13rem;
     display: block;
     text-align: center;
 }
@@ -101,10 +99,9 @@ button {
 .grupo5,
 .grupo6 {
     padding: 1rem;
-    padding-inline: 10rem;
+    padding-inline: 5rem;
     display: block;
     text-align: center;
-    height: 20rem;
 }
 
 .usinainfo,
@@ -115,15 +112,20 @@ button {
     padding: 1rem
 }
 
+.usinainfo {
+    width: 17rem;
+}
+
 .comofazer {
-    width: 30rem;
+    width: 20rem;
 }
 
 .faculdade {
-    height: 10rem;
+    height: 8rem;
 }
 
 .canais {
+    height: 8.5rem;
     border-radius: 50%;
 }
 
@@ -133,9 +135,10 @@ button {
     font-weight: bolder;
     padding: 1rem;
     font-family: 'Dosis', sans-serif;
+    text-align: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .header {
         padding: 1rem;
     }
