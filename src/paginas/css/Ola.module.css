@@ -141,18 +141,15 @@ button {
         width: 24rem;
     }
     .conteudo {
-        border: 1px solid red;
         padding-block: 1.5rem;
         padding-inline: 0.5rem;
         width: 100%;
         text-align: center;
     }
     .h1 {
-        border: 1px solid red;
         font-size: 3.5rem;
     }
     .h2 {
-        border: 1px solid red;
         font-size: 1.6rem;
     }
 }
