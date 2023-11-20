@@ -136,23 +136,23 @@ button {
         padding-inline: 0.6rem;
         padding-block: 0.4rem;
     }
-    .login {
-        height: 2rem;
-        width: 2rem;
-    }
     .imagemdefundo {
         height: 14rem;
         width: 24rem;
     }
     .conteudo {
+        border: 1px solid red;
         padding-block: 1.5rem;
-        padding-inline: 1rem;
+        padding-inline: 0.5rem;
+        width: 100%;
         text-align: center;
     }
     .h1 {
+        border: 1px solid red;
         font-size: 3.5rem;
     }
     .h2 {
+        border: 1px solid red;
         font-size: 1.6rem;
     }
 }
