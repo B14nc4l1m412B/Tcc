@@ -101,9 +101,10 @@ button {
     padding: 1rem;
 }
 
-.camera {
-    height: 15rem;
-    width: 20rem;
+.camera1,
+.camera2 {
+    height: 20rem;
+    width: 25rem;
     border-radius: 10px;
 }
 
@@ -170,7 +171,8 @@ p {
         width: 20rem;
         text-align: center;
     }
-    .camera {
+    .camera1,
+    .camera2 {
         width: 20rem;
         height: 13rem;
     }

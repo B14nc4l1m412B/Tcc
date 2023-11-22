@@ -81,9 +81,18 @@ button {
     color: white;
 }
 
+.imagem {
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #1b2c44;
+}
+
 .imagemdefundo {
-    height: 38rem;
-    width: 117rem;
+    height: 25rem;
+    width: 40rem;
+    border-radius: 10px;
 }
 
 .conteudo {
@@ -138,7 +147,7 @@ button {
     }
     .imagemdefundo {
         height: 14rem;
-        width: 24rem;
+        width: 20rem;
     }
     .conteudo {
         padding-block: 1.5rem;

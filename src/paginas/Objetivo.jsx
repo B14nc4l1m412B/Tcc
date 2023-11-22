@@ -3,7 +3,8 @@ import { Link } from "react-router-dom"
 import styles from "./css/Objetivo.module.css"
 
 import Logo from "./imagens/Logo.png"
-import camera from "./imagens/camera1.png"
+import camera1 from "./imagens/Tcc_lateral.jpg"
+import camera2 from "./imagens/Tcc_fios.jpg"
 
 function Objetivo() {
 
@@ -32,13 +33,13 @@ function Objetivo() {
             <p className={styles.p}> Nosso trabalho é fazer um sistema de segurança (alarme) que só acione se o tempo pré-definido do alarme tiver passado. Ele vai soar um alarme alto para o proprietário e pessoas ao redor serem informando que algo suspeito aconteceu perto de sua porta. Trazendo assim mais conforto e segurança para as pessoas que utilizam nossos equipamentos da forma mais rápida, fácil e prática. </p>
             </div>
             <div className={styles.divcamera}>
-              <img className={styles.camera} src={camera} alt="camera observando" />
+              <img className={styles.camera1} src={camera1} alt="camera observando" />
             </div>
             </div>
 
             <div className={styles.conteudo1}>
             <div className={styles.divcamera}>
-              <img className={styles.camera} src={camera} alt="camera observando" />
+              <img className={styles.camera2} src={camera2} alt="camera observando" />
             </div>
             <div className={styles.Publico}>
             <h1 className={styles.h1}>Público-alvo:</h1>
