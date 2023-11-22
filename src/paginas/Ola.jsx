@@ -32,7 +32,7 @@ function Ola() {
           </div>
           <div className={styles.conteudo}>
             <h1 className={styles.h1}>Olá</h1>
-            <h2 className={styles.h2}>Bem-vindo ao site Begin DoorLock systems, onde você encontra uma grande variedade de sirenes, equipamentos de segurança residencial, tudo na melhor qualidade para sua segurança e proteção residencial, confira nossos equipamentos de última geração.</h2>
+            <h2 className={styles.h2}>Bem-vindo ao site Begin DoorLock systems, onde você encontra nosso sistema de segurança, um equipamento de segurança residencial, tudo na melhor qualidade para sua segurança e proteção residencial, confira nosso sistema de última geração.</h2>
           </div>
         </main>
       </>

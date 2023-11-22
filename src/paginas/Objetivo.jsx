@@ -30,7 +30,7 @@ function Objetivo() {
           <div className={styles.conteudo1}>
             <div className={styles.Objetivo}>
             <h1 className={styles.h1}>Objetivo:</h1>
-            <p className={styles.p}> Nosso trabalho é fazer um sistema de segurança (alarme) que só acione se o tempo pré-definido do alarme tiver passado. Ele vai soar um alarme alto para o proprietário e pessoas ao redor serem informando que algo suspeito aconteceu perto de sua porta. Trazendo assim mais conforto e segurança para as pessoas que utilizam nossos equipamentos da forma mais rápida, fácil e prática. </p>
+            <p className={styles.p}> Nosso trabalho é fazer um sistema de segurança com alarme que só aciona se o tempo pré-definido do alarme tiver passado. Ele vai soar um alarme alto para o proprietário e pessoas ao redor serem informando que algo suspeito aconteceu perto de sua porta. Trazendo assim mais conforto e segurança para as pessoas que utilizam nossos equipamentos da forma mais rápida, fácil e prática. </p>
             </div>
             <div className={styles.divcamera}>
               <img className={styles.camera1} src={camera1} alt="camera observando" />
